@@ -1,0 +1,21 @@
+curl -fsSL https://get.docker.com -o get-docker.sh && sh docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo usermod -aG docker ubuntu
+logout
+docker
+docker-compose
+sudo apt install docker-compose -y
+docker-compose
+git clone https://github.com/mubeen507/prometheus-grafana-app-monitoring.git
+ls
+cd prometheus-garfana-ap-monitoring
+cd prometheus-garfana-app-monitoring
+cd prometheus-grafana-app-monitoring
+ls
+cat docker-compose.yaml
+vi docker-compose.yaml
+cat docker-compose.yaml
+docker-compose up -d --build nodejs-application
+cat docker-compose.yaml
+docker container ls
+docker-compose up -d --build prometheus
